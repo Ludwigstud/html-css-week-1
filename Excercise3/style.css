@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(201, 82, 13);
+  flex-direction: column;
+}
+
+.container {
+  .title {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 42px;
+  }
+
+  .me {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    img {
+      border: solid 4px black;
+      border-radius: 5px;
+      width: 60%;
+    }
+    div {
+      ul {
+        p {
+          font-size: 22px;
+          max-width: 60%;
+        }
+      }
+    }
+  }
+
+  .languages {
+    padding-top: 40px;
+    .info {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      img {
+        width: 50%;
+      }
+    }
+  }
+}
