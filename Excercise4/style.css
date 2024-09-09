@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation {
+  padding-top: 20px;
+  padding-bottom: 8px;
+  display: flex;
+  .link {
+    font-size: 15px;
+    padding: 5px;
+  }
+}
+
+.search {
+  display: flex;
+  .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .input {
+    width: 400px;
+  }
+}
+
+.links {
+  padding-top: 40px;
+}
+
+footer {
+  padding-top: 4px;
+  p {
+    font-size: 10px;
+  }
+}
