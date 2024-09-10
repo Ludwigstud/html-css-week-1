@@ -2,6 +2,7 @@ body {
   background-color: #007f82;
   padding: 0;
   margin: 0;
+  color: white;
 }
 
 .rows {
@@ -34,7 +35,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 2.5rem;
-
+  color: black;
   background-color: #c0c0c0;
 }
 
@@ -80,9 +81,27 @@ body {
   }
 }
 
-.clippy {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin-bottom: 50px;
+.clippy-link {
+  .clippy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 50px;
+  }
+
+  .hidden-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 50px;
+    margin-bottom: 150px;
+    text-decoration: none;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.1s ease;
+  }
+}
+
+.clippy-link:hover .hidden-text {
+  opacity: 1;
 }
