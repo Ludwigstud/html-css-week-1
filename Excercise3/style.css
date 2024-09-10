@@ -8,9 +8,10 @@ body {
   display: flex;
 
   .file-text {
+    text-decoration: none;
     margin: 20px;
     max-width: 100px;
-    border: 1px solid red;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,16 +20,69 @@ body {
       width: 40px;
     }
     p {
-      color: #cbf4fa;
+      color: #ffffff;
     }
   }
 }
 
 .footer {
+  border-top: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2rem;
-  border: 1px solid red;
+  height: 2.5rem;
+
   background-color: #c0c0c0;
+}
+
+.footer-img {
+  padding: 3px;
+  margin-left: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  img {
+    width: 25px;
+  }
+  span {
+    padding-left: 3px;
+  }
+}
+
+.time {
+  padding: 5px;
+  padding-right: 10px;
+  display: flex;
+
+  margin-right: 6px;
+
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+
+  img {
+    width: 20px;
+    padding-right: 7px;
+  }
+}
+
+.file-text:hover {
+  p {
+    background-color: darkblue;
+  }
+}
+
+.clippy {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 50px;
 }
