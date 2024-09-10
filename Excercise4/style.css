@@ -5,6 +5,9 @@ body {
   align-items: center;
 }
 
+.img {
+  padding-top: 40px;
+}
 .navigation {
   padding-top: 20px;
   padding-bottom: 8px;
